@@ -5,13 +5,15 @@ angular.
     controller: function PhoneListController() {
       this.phones = [
         {
-          name: 'Nexus S',
+          name: 'Nokia',
           snippet: 'Fast just got faster with Nexus S.'
-        }, {
-          name: 'Motorola XOOM™ with Wi-Fi',
+        }, 
+        {
+          name:'Iphone',
           snippet: 'The Next, Next Generation tablet.'
-        }, {
-          name: 'MOTOROLA XOOM™',
+        }, 
+        {
+          name: 'Pixel',
           snippet: 'The Next, Next Generation tablet.'
         }
       ];
