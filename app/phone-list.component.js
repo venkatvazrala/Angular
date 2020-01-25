@@ -6,16 +6,20 @@ angular.
       this.phones = [
         {
           name: 'Nokia',
-          snippet: 'Fast just got faster with Nexus S.'
+          snippet: 'Fast just got faster with Nexus S.',
+          age:2
         }, 
         {
-          name:'Iphone',
-          snippet: 'The Next, Next Generation tablet.'
+          name:'phone',
+          snippet: 'The Next, Next Generation tablet.',
+          age:1
         }, 
         {
           name: 'Pixel',
-          snippet: 'The Next, Next Generation tablet.'
+          snippet: 'The Next, Next Generation tablet.',
+          age:3
         }
       ];
+      this.orderProp='age';
     }
   });
